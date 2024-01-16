@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1{
+            text-transform: capitalize;
+            text-align: left ;
+        }
+        div{
+            display: flex;
+            
+            
+            
+            background-color: darkcyan;
+            
+        }
+        form{
+           
+            border: 1px solid salmon ;
+            background-color: cornflowerblue;
+            
+        }
+        /* div{
+            user-select: none;
+        }
+        div>h1>form
+            {
+                 width: 24px;
+                height: 24px;
+                 transition: all 0.3s;
+                margin-left: auto;
+}
+h1[open]  form {
+    transform: rotate(180deg);
+}
+h1 {
+  display: flex ;
+  cursor: pointer;
+}
+h1::-webkit-details-marker {
+  display: none;
+} */
+        
+    
+
+    </style>
+</head>
+<body>
+    
+   <div >
+    <h1>travel form : </h1>
+
+    <form action="" class="">
+    <br>
+        <label for="name">Name :</label>
+        <input type="text" name="name" id="name"> 
+        <br>
+        <br>
+
+        <label for="email">Email : </label>   
+        <input type="email" name="email" id="email">
+
+        <br>
+        <br>
+
+        <label for="mobno">Mob no . :</label>
+        <input type="number" name="mobno" id="mobno" required="10" >
+
+        <br>
+        <br>
+          
+       <label for="people">How Many people you are ?
+       <br>
+       <label for="people1">
+       <input type="radio" name="people"  value="1" id="people1" alt="1"> 1
+    </label>
+       <label for="people2">
+       <input type="radio" name="people" value="2" id="people2" alt="2"> 2
+    </label>
+       <label for="people3">
+       <input type="radio" name="people" value="3" id="people3" alt="3"> 3
+    </label>
+       <label for="people4">
+       <input type="radio" name="people" value="4" id="people4" alt="4"> 4
+    </label>
+       
+    </label>
+      
+       <br>
+       <br>
+
+       <label for="places">Place you want to visit :</label>
+       <select name="places" id="places" required>
+        <option value="Lakshdeep">Lakshdeep </option>
+        <option value="orissa">orissa </option>
+        <option value="Nanital">Nanital </option>
+       </select>
+
+       <br>
+       <br>
+
+       <label for="estimate">Choose your Budget : </label>
+       <label for="estimate">
+       <input type="radio" name="estimate" id="estimate" alt="2000">2000
+    </label>
+       <label for="estimate1">
+       <input type="radio" name="estimate" id="estimate1" value="4000"  alt="4000">4000</label>
+       <label for="estimate2">
+       <input type="radio" name="estimate" id="estimate2"  alt="6000">6000</label>
+       <label for="estimate3">
+       <input type="radio" name="estimate" id="estimate3" alt="No limit">No Limit
+    </label>
+
+
+       
+       
+
+     <br>
+     <br>
+        
+     <button type="submit"> Submit </button>
+
+
+    </form>
+   </div>
+    
+</body>
+</html>
